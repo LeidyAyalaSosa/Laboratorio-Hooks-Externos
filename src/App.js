@@ -33,7 +33,6 @@ function App() {
       <p>{data[2].temperament}</p>
       <p>{data[2].origin}</p>
       <img src={data[2].image.url} alt={data[2].id} width="300px" />
-      <img src={data.image} alt={data.id} width="300px" />;
     </div>
   );
 }
